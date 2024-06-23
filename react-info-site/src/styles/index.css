@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body, html{
+  margin: 0;
+}
+
+body{
+  font-family: "Inter";
+  color: #FFF;
+  background-color: #282D35
+}
+
+.inner-wrapper{
+  padding-inline: 4.5vw;
+}
+
+a{
+  text-decoration:none;
+}

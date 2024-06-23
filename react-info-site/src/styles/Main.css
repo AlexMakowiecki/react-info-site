@@ -1,0 +1,72 @@
+h1{
+  font-size: 2.5rem;
+  margin: 1.2em 0;
+}
+
+main{
+  position:relative;
+}
+
+main a{
+  color: #abc6ce;
+}
+
+main a:hover{
+  text-decoration:underline;
+}
+
+main li::marker{
+  font-size: 1.5em;
+  color: #61DAFB;
+}
+
+main li{
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+main h2{
+  margin: 1.5em 0 0.5em;
+}
+
+main .background{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  z-index: -1;
+}
+
+main img{
+  width: 40vw;
+  min-width: 500px;
+  max-height: 100%;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  right: 0;
+  transform:translateX(50%);
+  filter: saturate(0) opacity(0)
+}
+
+@media (min-width: 800px){
+
+  h1{
+    font-size: 3rem;
+  }
+  main h2{
+    font-size: 2rem;
+  }
+  main li{
+    font-size: 1.25rem;
+  }
+  main img{
+    filter: saturate(0) opacity(0.05)
+  }
+}
+
+
