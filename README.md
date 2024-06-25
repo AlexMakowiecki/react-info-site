@@ -72,7 +72,8 @@ It's a list of tips that may help if you are doing the React course from Scrimba
           console.log( <Main />)
           ```
         </details>
-        
+  - ### Vite/Project Organization
+    - 
 ## Preview
 ![dashboard](https://github.com/AlexMakowiecki/personal-dashboard/assets/122258496/c927ae6c-9f3c-4436-abb7-a592e6da783a)
 
