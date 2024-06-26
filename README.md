@@ -73,7 +73,31 @@ It's a list of tips that may help if you are doing the React course from Scrimba
           ```
         </details>
   - ### Vite/Project Organization
-    - 
+    - All the Javascript, CSS, and static files have to be stored inside the "src" folder.
+    - The Javascript files that use React syntax have to end with .jsx instead of .js.
+    - You can make a CSS file for each React Component, but you need to import that file inside the React Component to use it.
+    - <details>
+          <summary>You can make a CSS file for each React Component, but you need to import that file inside the React Component</summary>
+          
+         ```JSX
+          // File named Main.jsx
+          import "./css/Main.css"
+          export default function Main(){
+           return (<main className="example"></main>)
+          }
+         ```
+        </details>
+     - <details>
+          <summary>To use images you also have to import them first</summary>
+          
+         ```JSX
+          // File named Main.jsx
+          import mainImg from "./assets/main-img.png"
+          export default function Main(){
+           return (<img src={ mainImg }></img>)
+          }
+         ```
+        </details>    
 ## Preview
 ![dashboard](https://github.com/AlexMakowiecki/personal-dashboard/assets/122258496/c927ae6c-9f3c-4436-abb7-a592e6da783a)
 
