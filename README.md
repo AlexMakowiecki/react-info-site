@@ -1,6 +1,6 @@
 # React Info Site
 ## Introduction
-It's a list of tips that may help if you are doing the React course from Scrimba while using Vite for your local Projects.
+It's a list of tips that may help if you are doing the React course from Scrimba while using Vite for your local projects.
 ## Concepts learned in the course 
  - ### React
     - #### Theory
