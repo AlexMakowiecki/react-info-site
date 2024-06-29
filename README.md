@@ -99,8 +99,7 @@ It's a list of tips that may help if you are doing the React course from Scrimba
          ```
         </details>    
 ## Preview
-![dashboard](https://github.com/AlexMakowiecki/personal-dashboard/assets/122258496/c927ae6c-9f3c-4436-abb7-a592e6da783a)
-
+![react-info-site](https://github.com/AlexMakowiecki/react-info-site/assets/122258496/5e76b814-ca11-4d98-8271-54feb9c180b2)
 
 
 ## About Scrimba
