@@ -1,6 +1,6 @@
 import "../styles/Main.css"
 import reactLogo from "../assets/react.svg"
-export default function Main(){
+export default function Main() {
   return (
     <main>
       <div className="inner-wrapper">
@@ -14,14 +14,14 @@ export default function Main(){
         <ul>
           <li> The index.js and style.css files can be placed inside the "src" folder. </li>
           <li> You can't move index.html without changing Vite's default configuration. </li>
-          <li> All files that use React syntax must end with .jsx. Vite doesn't let you use React syntax in normal Javascript files. </li>
+          <li> All files that use React syntax must end with .jsx. You can't use React syntax if you don't. </li>
           <li> On the other hand, you don't need to import React in each .jsx file anymore. </li>
           <li> You can create the "components" folder inside the "src" folder and put the React components there. </li>
           <li> Remember that now you have to use ReactDOM.createRoot() to render. </li>
         </ul>
       </div>
       <div className="background">
-        <img src={ reactLogo }/>
+        <img src={reactLogo} />
       </div>
     </main>
   )
